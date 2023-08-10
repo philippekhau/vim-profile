@@ -17,6 +17,7 @@ $ curl -fLo ~/.config/nvim/init.vim --create-dirs \
     https://raw.githubusercontent.com/philippekhau/vim-profile/master/.config/nvim/init.vim
 $ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+$ curl -L https://cs.symfony.com/download/php-cs-fixer-v3.phar -o ~/.vim/php-cs-fixer.phar
 $ cd ~/.local/share/nvim/plugged/phpactor
 $ composer install
 ```
