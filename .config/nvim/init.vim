@@ -107,8 +107,12 @@ let g:php_cs_fixer_rules = "@PSR2"
 let g:php_cs_fixer_ignore_env = 1
 map <M-r> :call PhpCsFixerFixFile()<CR>
 
+" ncm2
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=noinsert,menuone,noselect
+
+" GitGutter
+autocmd BufEnter * GitGutterEnable
 
 " vim-commentary
 autocmd FileType php setlocal commentstring=//%s
