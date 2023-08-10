@@ -29,6 +29,7 @@ curl -L https://cs.symfony.com/download/php-cs-fixer-v3.phar -o ~/.vim/php-cs-fi
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
+sudo mv composer.phar /usr/local/bin/composer
 
 cd ~/.local/share/nvim/plugged/phpactor
 composer install
