@@ -75,6 +75,9 @@ hi VueValue guifg=#9876AA
 hi phpIdentifier guifg=#9876AA
 hi phpVarSelector guifg=#9876AA
 hi phpMethodsVar guifg=#9876AA
+hi phpDocIdentifier guifg=#9876AA
+
+hi phpDocParam guifg=#80ABBA gui=italic
 
 hi phpComment guifg=#5B9355
 hi jsComment guifg=#5B9355
@@ -84,10 +87,12 @@ hi phpClasses guifg=#A9B7C6
 hi phpMemberSelector guifg=#A9B7C6
 hi phpOperator guifg=#A9B7C6
 
+hi phpFunction guifg=#FFC66D
 hi phpMethod guifg=#FFC66D
 
 hi jsFutureKeys guifg=#cc7832
 hi phpInclude guifg=#cc7832
+hi phpMethodsVar guifg=#cc7832
 
 "  nerd tree
 map <leader>n :NERDTreeFocus<CR>
