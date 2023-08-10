@@ -67,10 +67,6 @@ map <M-j> <C-n>
 colorscheme darcula
 set termguicolors
 
-
-hi! vue3Keys guifg=#ff0000
-hi! toto guifg=#ff0000
-
 hi VueComponentName guifg=#26bda4
 
 hi javaScriptNumber guifg=#6897BB

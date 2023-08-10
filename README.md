@@ -3,7 +3,7 @@
 sudo apt update && sudo apt install -y software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 sudo apt update
-sudo apt install --no-install-recommends php8.1 php8.1-fpm
+sudo apt install --no-install-recommends php8.1 php8.1-fpm php8.1-curl php8.1-xml
 ```
 
 # php-cs-fixer
